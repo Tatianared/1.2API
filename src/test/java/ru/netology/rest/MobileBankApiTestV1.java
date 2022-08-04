@@ -43,7 +43,7 @@ class MobileBankApiTestV1 {
                 .when()
                 .get("/demo/accounts")
                 .then()
-                .body("[2].currency", equalTo("RUB"));
+                .body("[2].currency", equalTo("RUR"));
     }
 
 }
