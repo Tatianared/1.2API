@@ -29,8 +29,6 @@ class MobileBankApiTestV1 {
     }
 
 
-
-
     @Test
     void shouldUSD() {
         given()
@@ -40,6 +38,7 @@ class MobileBankApiTestV1 {
                 .then()
                 .body("[1].currency", equalTo("USD"));
     }
+
     @Test
     void shouldRUB() {
         given()
