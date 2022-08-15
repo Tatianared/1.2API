@@ -27,7 +27,9 @@
         "type": "integer"
       },
       "currency": {
-        "type": "string"
+        "type": "string",
+        "patternProperties": "RUB",
+        "patternProperties": "USD"
       }
     }
   }
